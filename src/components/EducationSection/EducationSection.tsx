@@ -33,9 +33,9 @@ export const EducationSection = () => {
         >
           <Card>
             <CardHeader>
-              <CardTitle>M.Sc. in Computer Science</CardTitle>
+              <CardTitle>Vocational High School - Computer and Network Engineering</CardTitle>
               <p className="text-sm text-muted-foreground">
-                University of Chennai — 2016 – 2018
+                 SMK Excellent 1 Tangerang — 2021 – 2024 
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
@@ -53,9 +53,9 @@ export const EducationSection = () => {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>B.Sc. in Information Technology</CardTitle>
+              <CardTitle>Bachelor's Degree in Informatics Engineering</CardTitle>
               <p className="text-sm text-muted-foreground">
-                Anna University — 2013 – 2016
+                University of Muhammadiyah Tangerang — 2013 – 2016
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
