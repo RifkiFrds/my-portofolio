@@ -1,17 +1,24 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { Button } from "../lightswind/button";
 import { Download, ArrowRight } from "lucide-react";
 
-/* Animation variant */
-const fadeUp = {
-  hidden: { opacity: 0, y: 20, filter: "blur(4px)" },
+/* Animation variant (TypeScript safe) */
+const fadeUp: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+    filter: "blur(4px)",
+  },
   visible: {
     opacity: 1,
     y: 0,
     filter: "blur(0px)",
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: {
+      duration: 0.8,
+      ease: [0.16, 1, 0.3, 1], // easeOut (cubic-bezier)
+    },
   },
 };
 
@@ -73,10 +80,13 @@ export const HeroSection = () => {
               size="lg"
               className="w-full sm:w-auto"
             >
-              <a href="/cv/CV-MUHAMAD-RIFKI-FIRDAUS.pdf" download 
-              className="inline-flex items-center gap-2">
-                Download CV
+              <a
+                href="/cv/CV-MUHAMAD-RIFKI-FIRDAUS.pdf"
+                download
+                className="inline-flex items-center gap-2"
+              >
                 <Download className="h-4 w-4" />
+                Download CV
               </a>
             </Button>
           </motion.div>
@@ -89,7 +99,10 @@ export const HeroSection = () => {
               size="lg"
               className="w-full sm:w-auto"
             >
-              <a href="#projects" className="inline-flex items-center gap-2">
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2"
+              >
                 View Projects
                 <ArrowRight className="h-4 w-4" />
               </a>
@@ -103,7 +116,11 @@ export const HeroSection = () => {
         className="flex-1 flex justify-center p-6"
         initial={{ opacity: 0, scale: 0.85, filter: "blur(10px)" }}
         animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
-        transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
+        transition={{
+          delay: 0.6,
+          duration: 1,
+          ease: [0.16, 1, 0.3, 1],
+        }}
       >
         <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
           <img
