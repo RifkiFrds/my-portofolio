@@ -23,6 +23,7 @@ import { motion, AnimatePresence } from "framer-motion";
 function App() {
   const [showDock, setShowDock] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const isMobile = window.innerWidth < 640;
 
   // Track scroll direction
   useEffect(() => {
@@ -126,13 +127,13 @@ function App() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 100, opacity: 0 }}
               transition={{ duration: 0.6, ease: "easeInOut" }}
-              className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[999]"
+              className="fixed max-w-sm bottom-4 left-1/2 -translate-x-1/2 z-[999]"
             >
               <Dock
                 items={dockItems}
                 position="bottom"
-                magnification={70}
-                baseItemSize={50}
+                magnification={isMobile ? 55 : 70}
+                baseItemSize={isMobile ? 40 : 50}
               />
             </motion.div>
           )}
