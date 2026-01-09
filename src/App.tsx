@@ -12,7 +12,8 @@ import ReactLenis from "lenis/react";
 import Dock from "./components/lightswind/dock";
 import {
   Home,
-  User,
+  Award,
+  Mail,
   GraduationCap,
   Briefcase,
   FolderKanban,
@@ -59,14 +60,14 @@ function App() {
       onClick: () => scrollToSection("home"),
     },
     {
-      icon: <User size={24} />,
-      label: "About",
-      onClick: () => scrollToSection("about"),
-    },
-    {
       icon: <GraduationCap size={24} />,
       label: "Education",
       onClick: () => scrollToSection("education"),
+    },
+    {
+      icon: <Award size={24} />,
+      label: "Certificates",
+      onClick: () => scrollToSection("certifications"),
     },
     {
       icon: <Briefcase size={24} />,
@@ -77,6 +78,11 @@ function App() {
       icon: <FolderKanban size={24} />,
       label: "Projects",
       onClick: () => scrollToSection("projects"),
+    },
+    {
+      icon: <Mail size={24} />,
+      label: "Contact",
+      onClick: () => scrollToSection("contact"),
     },
   ];
 
