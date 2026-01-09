@@ -12,12 +12,12 @@ export const AboutSection = () => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <h2 className="text-3xl font-bold">About Me</h2>
-      <p className="text-muted-foreground text-sm max-w-3xl">
-       A highly motivated Informatics Engineering student at Universitas Muhammadiyah Tangerang with a strong passion 
-       for technology, particularly in Front-End Web Development. Successfully completed the Dicoding x Indosat 
-       Ooredoo Hutchison (IDCamp) scholarship program up to the Advanced level. Experienced in building impactful 
-       digital projects with a user-centered approach. Recognized as a fast learner, disciplined, and eager to contribute to 
-       innovative and collaborative tech initiatives
+      <p className="text-muted-foreground text-justify text-sm max-w-3xl">
+       A highly motivated Informatics Engineering student at Universitas Muhammadiyah Tangerang, specializing in Front
+      End Web Development. Certified in Junior Web Developer (BNSP) through KOMDIGI, and successfully completed 
+      the Dicoding x Indosat Ooredoo Hutchison (IDCamp) scholarship program up to the Advanced level. Skilled in 
+      building impactful and user-centric digital products with modern web technologies. Known as a fast learner, detail
+      oriented, and committed to delivering innovative and collaborative tech solutions.
       </p>
       <Separator />
     </motion.div>
