@@ -12,7 +12,6 @@ export const EducationSection = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.2 }}
     >
-      {/* Education */}
       <div>
         <motion.h3
           className="text-3xl font-bold mb-6"
@@ -25,49 +24,69 @@ export const EducationSection = () => {
         </motion.h3>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-1 gap-8"
+          className="grid grid-cols-1 gap-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
         >
+          {/* SMK */}
           <Card>
             <CardHeader>
-              <CardTitle>Vocational High School - Computer and Network Engineering</CardTitle>
+              <CardTitle>
+                Vocational High School – Computer and Network Engineering
+              </CardTitle>
               <p className="text-sm text-muted-foreground">
-                 SMK Excellent 1 Tangerang — 2021 – 2024 
+                SMK Excellent 1 Tangerang | 2021 – 2024
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
               <p>
-                Specialized in <strong>Software Architecture</strong>,
-                <strong> Distributed Systems</strong>, and
-                <strong> Artificial Intelligence Applications</strong>.
+                Focused on Computer and Network Engineering with hands-on
+                experience in web development, network configuration, and system
+                troubleshooting through practical learning and competitions.
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Thesis on Machine Learning for Predictive Analytics</li>
-                <li>Led a research project on Cloud-Based ERP solutions</li>
-                <li>Published 2 papers in IEEE conferences</li>
+                <li>
+                  Web Technology Student Competition (Kota Tangerang),
+                  Kemendikbudristek
+                </li>
+                <li>
+                  Highest competency exam score in the graduating class
+                  (web development and MikroTik network configuration)
+                </li>
+                <li>Telkom Mobile Development Bootcamp (Dart)</li>
+                <li>Junior Network Administrator certification</li>
               </ul>
             </CardContent>
           </Card>
+
+          {/* University */}
           <Card>
             <CardHeader>
-              <CardTitle>Bachelor's Degree in Informatics Engineering</CardTitle>
+              <CardTitle>Bachelor’s Degree in Informatics Engineering</CardTitle>
               <p className="text-sm text-muted-foreground">
-                University of Muhammadiyah Tangerang — 2013 – 2016
+                University of Muhammadiyah Tangerang | 2024 – Present
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
               <p>
-                Gained strong foundation in <strong>Programming</strong>,
-                <strong> Networking</strong>, and
-                <strong> Database Management</strong>.
+                Focused on web development and software fundamentals, complemented
+                by certified industry programs and real organizational projects.
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Top 5% in Software Engineering coursework</li>
-                <li>Developed a campus-wide library management system</li>
-                <li>Organized annual tech fest for 3 consecutive years</li>
+                <li>
+                  Dicoding x Indosat Ooredoo Hutchison (IDCamp) Scholarship –
+                  Advanced level
+                </li>
+                <li>Junior Web Developer training (BNSP KOMDIGI)</li>
+                <li>
+                  Developed the official website of HIMTI (Campus Student
+                  Organization)
+                </li>
+                <li>
+                  Youth Technology Innovation Ambassador – Kota Tangerang
+                </li>
               </ul>
             </CardContent>
           </Card>
