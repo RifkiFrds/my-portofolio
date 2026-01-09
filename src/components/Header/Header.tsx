@@ -7,10 +7,11 @@ import { BorderBeam } from "../lightswind/border-beam";
 
 const navItems = [
   { name: "Home", href: "#hero" },
-  { name: "About", href: "#about" },
   { name: "Education", href: "#education" },
   { name: "Career", href: "#career" },
   { name: "Projects", href: "#projects" },
+  { name: "Certificates", href: "#certificates" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Header() {
@@ -55,7 +56,7 @@ export default function Header() {
     setIsMobileMenuOpen(false); // Close mobile menu on click
   };
 
-  // ✅ Typed variants
+  // Typed variants
   const menuVariants: Variants = {
     open: {
       clipPath: "circle(1200px at 90% 5%)",
