@@ -41,11 +41,15 @@ export default function ProfessionalProfile() {
             </CardHeader>
             <CardContent className="space-y-4">
               {[
+                { name: "HTML5 & CSS3", level: 95 },
+                { name: "JavaScript & TypeScript", level: 92 },
                 { name: "React.js / Next.js", level: 95 },
-                { name: "Node.js / Express", level: 90 },
-                { name: "TypeScript & JavaScript", level: 92 },
-                { name: "Database (MongoDB / PostgreSQL)", level: 88 },
-                { name: "Cloud (AWS / Azure)", level: 85 },
+                { name: "Tailwind CSS", level: 90 },
+                { name: "Responsive Web Design", level: 90 },
+                { name: "Node.js / Express", level: 80 },
+                { name: "Laravel", level: 85 },
+                { name: "MongoDB / MySQL", level: 88 },
+                { name: "Git & GitHub", level: 90 },
               ].map((skill, i) => (
                 <motion.div
                   key={i}
@@ -83,11 +87,12 @@ export default function ProfessionalProfile() {
               <AnimatePresence>
                 {[
                   "Leadership",
+                  "Decision Making",
                   "Problem Solving",
-                  "Agile Methodologies",
-                  "Mentorship",
-                  "Strategic Thinking",
-                  "Cross-Team Collaboration",
+                  "Public Speaking",
+                  "Mentorship & Knowledge Sharing",
+                  "Analytical Thinking",
+                  "Cross-Team Collaboration", 
                 ].map((skill, i) => (
                   <motion.div
                     key={i}

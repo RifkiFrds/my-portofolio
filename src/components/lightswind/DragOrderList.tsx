@@ -17,6 +17,7 @@ export interface DragItem {
   title: string;
   subtitle: string;
   date: string;
+  image: string;
   link?: string;
 }
 
@@ -73,6 +74,7 @@ function DragOrderItem({ item }: { item: DragItem }) {
         <h2 className="text-lg font-semibold">{item.title}</h2>
         <p className="text-sm text-muted-foreground">{item.subtitle}</p>
         <span className="text-xs text-muted-foreground">{item.date}</span>
+        <img src={item.image} className="mt-2 rounded-lg w-40 h-4x0" alt="" />
         {item.link && (
           <a
             href={item.link}

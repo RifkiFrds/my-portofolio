@@ -1,47 +1,31 @@
 import { ScrollTimeline } from "../lightswind/scroll-timeline";
-import { Briefcase, Award, Layers, Users, Globe } from "lucide-react";
+import { Briefcase, ShoppingCart } from "lucide-react";
 
 export const CareerTimeline = () => {
   const careerEvents = [
     {
-      year: "2024 – Present",
-      title: "Director of Product Engineering",
-      subtitle: "TechNova Global Solutions",
+      year: "Oct 2025 – Present",
+      title: "Web Developer Intern",
+      subtitle: "PT. Inspirasi Solusi Kreatif — Jakarta, Indonesia",
       description:
-        "Leading a 200+ engineering team across 5 continents, overseeing full product lifecycle from ideation to global deployment. Introduced AI-driven development pipelines, reducing time-to-market by 38%. Established enterprise-wide accessibility and sustainability design standards.",
-      icon: <Globe className="h-4 w-4 mr-2 text-primary" />,
-    },
-    {
-      year: "2020 – 2024",
-      title: "Senior Principal Engineer & Design Strategist",
-      subtitle: "Innova Digital Labs",
-      description:
-        "Architected scalable microservices for financial and healthcare industries, serving 20M+ active users. Directed the adoption of a unified design system across 12 product lines, increasing brand consistency and dev speed by 50%. Mentored 40+ senior engineers into leadership positions.",
-      icon: <Layers className="h-4 w-4 mr-2 text-primary" />,
-    },
-    {
-      year: "2016 – 2020",
-      title: "Lead Full-Stack Developer",
-      subtitle: "Skyline Interactive",
-      description:
-        "Spearheaded the creation of immersive web applications using React, GraphQL, and Node.js for high-profile clients. Reduced application load times by 70% through advanced performance optimization. Introduced component-driven workflows that became the company's standard practice.",
+        "Developing and maintaining responsive web interfaces using React.js and modern front-end practices. Integrating RESTful APIs from Laravel backend, building reusable UI components, and collaborating closely with backend developers to ensure data accuracy, performance, and UI/UX consistency based on product requirements.",
       icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
     },
     {
-      year: "2012 – 2016",
-      title: "Senior UI/UX Designer",
-      subtitle: "PixelForge Studios",
+      year: "2025 – Present",
+      title: "Co-Founder & Front-End Developer (Project-Based)",
+      subtitle: "GODINOV Software House",
       description:
-        "Designed award-winning digital experiences for global brands, winning multiple Awwwards and Webby Awards. Championed user-centered design by integrating continuous feedback loops into every sprint. Collaborated with cross-functional teams to unify visual and interaction design.",
-      icon: <Award className="h-4 w-4 mr-2 text-primary" />,
+        "Building and maintaining responsive web interfaces for small-scale business and organizational projects. Responsible for front-end architecture, UI implementation, and collaboration with backend and marketing team members to deliver functional and user-focused web solutions.",
+      icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
     },
     {
-      year: "2008 – 2012",
-      title: "Frontend Developer & Interaction Designer",
-      subtitle: "CreativeSpark Agency",
+      year: "Sep 2022 – Feb 2023",
+      title: "E-Commerce Marketing Intern",
+      subtitle: "PT. Wingoh Albindo — Tangerang, Indonesia",
       description:
-        "Built responsive and interactive marketing websites during the rise of mobile-first design. Created high-conversion landing pages for major e-commerce campaigns. Developed custom animations that improved user engagement metrics by over 45%.",
-      icon: <Users className="h-4 w-4 mr-2 text-primary" />,
+        "Assisted in managing product listings across e-commerce platforms, supported digital marketing and promotional activities, and maintained effective communication within the team to ensure smooth daily operations. Demonstrated strong discipline, responsibility, and teamwork, achieving an overall Grade A (Excellent Performance).",
+      icon: <ShoppingCart className="h-4 w-4 mr-2 text-primary" />,
     },
   ];
 
@@ -49,12 +33,12 @@ export const CareerTimeline = () => {
     <div id="career">
       <ScrollTimeline
         events={careerEvents}
-        title="Career Journey"
-        subtitle="An evolving path of leadership, innovation, and impact"
+        title="Professional Experience"
+        subtitle="Hands-on industry experience through internships and real-world projects"
         animationOrder="staggered"
         cardAlignment="alternating"
         cardVariant="elevated"
-        parallaxIntensity={0.15}
+        parallaxIntensity={0.12}
         revealAnimation="fade"
         progressIndicator={true}
         lineColor="bg-primary/20"
