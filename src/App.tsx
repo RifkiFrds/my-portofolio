@@ -1,4 +1,3 @@
-// App.jsx
 import { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -13,7 +12,6 @@ import ReactLenis from "lenis/react";
 import Dock from "./components/lightswind/dock";
 import {
   Home,
-  Award,
   Mail,
   GraduationCap,
   Briefcase,
