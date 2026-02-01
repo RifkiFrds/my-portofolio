@@ -8,7 +8,6 @@ import { BorderBeam } from "../lightswind/border-beam";
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "Education", href: "#education" },
-  { name: "Certificates", href: "#certificates" },
   { name: "Career", href: "#career" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
