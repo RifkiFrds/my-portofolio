@@ -85,13 +85,13 @@ export const HeroSection = () => {
                 download
                 className="inline-flex items-center gap-2"
               >
-                <Download className="h-4 w-4" />
                 Download CV
+                <Download className="h-4 w-4" />
               </a>
             </Button>
           </motion.div>
 
-          {/* View Projects */}
+          {/* Get In Touch */}
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
             <Button
               asChild
@@ -100,10 +100,10 @@ export const HeroSection = () => {
               className="w-full sm:w-auto"
             >
               <a
-                href="#projects"
+                href="#contact"
                 className="inline-flex items-center gap-2"
               >
-                View Projects
+                Get In Touch
                 <ArrowRight className="h-4 w-4" />
               </a>
             </Button>

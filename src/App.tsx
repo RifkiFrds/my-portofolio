@@ -8,6 +8,7 @@ import { AboutSection } from "./components/AboutSection/AboutSection";
 import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection";
 import { EducationSection } from "./components/EducationSection/EducationSection";
 import { CareerTimeline } from "./components/CareerSection/CareerTimeline";
+import { ContactSection } from "./components/Contact/ContactSection";
 import ReactLenis from "lenis/react";
 import Dock from "./components/lightswind/dock";
 import {
@@ -66,11 +67,6 @@ function App() {
       onClick: () => scrollToSection("education"),
     },
     {
-      icon: <Award size={24} />,
-      label: "Certificates",
-      onClick: () => scrollToSection("certifications"),
-    },
-    {
       icon: <Briefcase size={24} />,
       label: "Career",
       onClick: () => scrollToSection("career"),
@@ -115,6 +111,9 @@ function App() {
             </div>
             <div id="projects">
               <ProjectsSection />
+            </div>
+            <div id="contact">
+              <ContactSection />
             </div>
           </div>
         </div>
