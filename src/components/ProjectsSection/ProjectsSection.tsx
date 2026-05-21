@@ -6,6 +6,15 @@ import { ProjectCard } from "../lightswind/ProjectCard";
 export const ProjectsSection = () => {
   const projects = [
     {
+      title: "Educational Institution Profile & PPDB Website",
+      description:
+        "A modern educational institution web platform featuring responsive landing pages, institution profiles, program information, article/blog management, and integrated online PPDB registration system. Built with Next.js frontend and Node.js, Express.js, GraphQL backend architecture.",
+      image:
+        "https://res.cloudinary.com/dw7zrlpyz/image/upload/v1779377762/godinov_portfolio-image/hsx2ckbpofqtqwwikflg.png",
+      link: "https://pkbmnurulilmi.sch.id/",
+      date: "2026",
+    },
+    {
       title: "HIMTI Universitas Muhammadiyah Tangerang",
       description:
         "Official website of HIMTI UMT featuring event information, competition registration, learning groups, and activity documentation. Developed using React (Vite) and Tailwind CSS with a clean and modern UI.",
