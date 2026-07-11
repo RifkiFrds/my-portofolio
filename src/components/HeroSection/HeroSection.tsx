@@ -51,20 +51,17 @@ export const HeroSection = () => {
         </motion.h1>
 
         <motion.h2
-          className="text-xl text-muted-foreground mt-1"
+          className="text-md text-muted-foreground mt-1"
           variants={fadeUp}
         >
-          Aspiring Software Engineer | Front-End Developer
+          Software Engineer | Frontend Specialist | AI & Product Enthusiast
         </motion.h2>
 
         <motion.p
           className="mt-4 text-xs text-justify text-muted-foreground max-w-xl"
           variants={fadeUp}
         >
-          Front-End Developer focused on building intuitive, responsive, and
-          user-centered web experiences. Strong interest in UI/UX, modern
-          JavaScript, and scalable interface development. Always eager to learn,
-          improve, and collaborate on impactful digital projects.
+         Building scalable web applications, AI-powered products, and digital solutions that transform ideas into impactful user experiences.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -81,7 +78,7 @@ export const HeroSection = () => {
               className="w-full sm:w-auto"
             >
               <a
-                href="/cv/CV-MUHAMAD-RIFKI-FIRDAUS.pdf"
+                href="/cv/MUHAMAD_RIFKI_FIRDAUS_CV.pdf"
                 download
                 className="inline-flex items-center gap-2"
               >
