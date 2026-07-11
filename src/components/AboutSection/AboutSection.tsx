@@ -13,11 +13,7 @@ export const AboutSection = () => {
     >
       <h2 className="text-3xl font-bold">About Me</h2>
       <p className="text-muted-foreground text-justify text-sm max-w-3xl">
-       A highly motivated Informatics Engineering student at Universitas Muhammadiyah Tangerang, specializing in Front
-      End Web Development. Certified in Junior Web Developer (BNSP) through KOMDIGI, and successfully completed 
-      the Dicoding x Indosat Ooredoo Hutchison (IDCamp) scholarship program up to the Advanced level. Skilled in 
-      building impactful and user-centric digital products with modern web technologies. Known as a fast learner, detail
-      oriented, and committed to delivering innovative and collaborative tech solutions.
+      Software Engineer and Founder of Godinov Indonesia with hands-on experience in building scalable web applications and AI-powered digital solutions for healthcare, education, and enterprise businesses. Experienced in delivering end-to-end software products, from product planning and frontend engineering to backend development and AI integration. Passionate about creating clean, user-centered, and production-ready applications using modern technologies while continuously exploring innovative solutions to solve real-world problems.
       </p>
       <Separator />
     </motion.div>
