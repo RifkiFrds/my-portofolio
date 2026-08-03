@@ -5,7 +5,7 @@ export const CareerTimeline = () => {
   const careerEvents = [
       {
       year: "Jan 2026 - Present",
-      title: "Front-End Engineer Intern",
+      title: "Front-End Engineer",
       subtitle: "PT Sieto Utama Era Kita — Jakarta, Indonesia",
       description:
         "Implementing front-end and back-end technologies based on best practices, conducting system reviews and testing when required, providing operational system support, and collaborating proactively within cross-functional teams.",
