@@ -81,10 +81,6 @@ export const EducationSection = () => {
                 </li>
                 <li>Junior Web Developer training (BNSP KOMDIGI)</li>
                 <li>
-                  Developed the official website of HIMTI (Campus Student
-                  Organization)
-                </li>
-                <li>
                   Youth Technology Innovation Ambassador – Kota Tangerang
                 </li>
               </ul>
