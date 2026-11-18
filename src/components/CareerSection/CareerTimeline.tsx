@@ -1,8 +1,16 @@
 import { ScrollTimeline } from "../lightswind/scroll-timeline";
-import { Briefcase, ShoppingCart } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export const CareerTimeline = () => {
   const careerEvents = [
+      {
+        year: "Agust 2026 - Nov 2026",
+        title: "Software Engineer",
+        subtitle: "PT Shioping Internasional Grup — Tangerang, Indonesia",
+        description:
+          "Developing e-commerce web applications and cross-platform mobile interfaces using modern frontend technologies and Flutter. Contributing to backend development and Laravel API integration, while implementing RAG-based AI chatbot assistants powered by Large Language Models (LLMs).",
+        icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
+      },
       {
       year: "Jan 2026 - Present",
       title: "Front-End Engineer",
@@ -26,14 +34,6 @@ export const CareerTimeline = () => {
       description:
         "Building and maintaining responsive web interfaces for small-scale business and organizational projects. Responsible for front-end architecture, UI implementation, and collaboration with backend and marketing team members to deliver functional and user-focused web solutions.",
       icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
-    },
-    {
-      year: "Sep 2022 – Feb 2023",
-      title: "E-Commerce Marketing Intern",
-      subtitle: "PT. Wingoh Albindo — Tangerang, Indonesia",
-      description:
-        "Assisted in managing product listings across e-commerce platforms, supported digital marketing and promotional activities, and maintained effective communication within the team to ensure smooth daily operations. Demonstrated strong discipline, responsibility, and teamwork, achieving an overall Grade A (Excellent Performance).",
-      icon: <ShoppingCart className="h-4 w-4 mr-2 text-primary" />,
     },
   ];
 
